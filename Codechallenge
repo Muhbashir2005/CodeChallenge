@@ -1,4 +1,4 @@
-sing System;
+using System;
 
 namespace CodeChallenge
 {
@@ -12,7 +12,7 @@ namespace CodeChallenge
         {
             Console.WriteLine("=========Question 2===========");
             string result = "";
-            Console.WriteLine("Enter the length of the array (must be even):");
+            Console.WriteLine("Enter the length of the array :");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] arr = new int[n];
             Console.WriteLine("Enter an array of numbers:");
